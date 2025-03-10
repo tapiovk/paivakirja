@@ -1,0 +1,91 @@
+body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+div {
+    box-sizing: border-box;
+}
+
+
+/* Määritellään valikon korkeus*/
+.valikko {
+    width: 80%;
+    padding: 0px 0px 20px 0px;
+
+    margin: 0px auto 0px auto;
+
+    position: sticky;
+    top: 0;
+}
+
+/* Valikon listassa ei ole merkkiä (vain teksti) */
+#valikko ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+/* Valikon yksittäisten listojen tyylittely (muuttaa valikon horisontaaliksi) */
+.valikkopainike {
+    width: 25%;
+    float: left;
+    text-align: center;
+    background-color: #8C8C8C;
+
+    line-height: 400%;
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.iskulause {
+    margin: 80px 0px 70px 0px;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+
+
+.esittely {
+
+    margin: 0px auto 30px auto;
+    padding: 15px 15px 15px 15px;
+
+    width: 80%;
+
+    height: 300px;
+
+    background-image: url('../../kuvat/taustakuva_1.jpeg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.esittelyteksti {
+    width: 60%;
+
+    padding: 10px 20px 10px 20px;
+
+    border-radius: 25px;
+
+    background-color: rgba(113, 198, 217, 0.7);
+
+    box-shadow: 0px 0px 8px #8C7987;
+}
+
+.tekijanoikeus {
+    padding: 50px 0px 50px 0px;
+
+    background-color: #8C7987;
+
+    text-align: center;
+}
+
+.tekijanoikeus p {
+    color: #F2A2D6;
+}
