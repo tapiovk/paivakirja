@@ -1,4 +1,4 @@
-import http from 'http';
+/*import http from 'http';
 import express from 'express';
 const hostname = '127.0.0.1';
 const app = express();
@@ -19,6 +19,4 @@ app.get('/', (req, res) => {
 
 app.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
-});
-
-
+});*/
